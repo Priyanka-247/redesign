@@ -45,7 +45,7 @@ export default function Portfolio() {
 
   useEffect(() => {
     const handleScroll = () => {
-      const sections = ["home", "about", "education", "projects", "skills", "languages", "timeline", "contact"]
+      const sections = ["Home", "About", "Education", "Projects", "Skills", "Languages", "Timeline", "Contact"]
       const scrollPosition = window.scrollY + 100
 
       for (const section of sections) {
@@ -84,14 +84,14 @@ export default function Portfolio() {
       description:
         "Innovative wearable technology that senses emotions and provides real-time feedback for mental health monitoring.",
       tech: ["IoT", "Sensors", "Machine Learning"],
-      role: "Hardware & Software Integration",
+      role: "Machine Learning Engineer ",
     },
   ]
 
   const skills = {
     technical: [
       { name: "Java (Core)", level: 85 },
-      { name: "Python (Core)", level: 80 },
+      { name: "Python (Core)", level: 90 },
       { name: "AI/ML", level: 75 },
       { name: "Data Science", level: 70 },
       { name: "Database Management", level: 75 },
@@ -586,7 +586,7 @@ export default function Portfolio() {
                   </div>
                   <div>
                     <h4 className="font-semibold text-gray-900">Email</h4>
-                    <p className="text-gray-600">priyanka@example.com</p>
+                    <p className="text-gray-600">priyanka020427@gmail.com</p>
                   </div>
                 </div>
 
@@ -596,7 +596,7 @@ export default function Portfolio() {
                   </div>
                   <div>
                     <h4 className="font-semibold text-gray-900">Phone</h4>
-                    <p className="text-gray-600">+91 XXXXX XXXXX</p>
+                    <p className="text-gray-600">+91 90XXX XXX85</p>
                   </div>
                 </div>
 
@@ -686,7 +686,7 @@ export default function Portfolio() {
               <Mail className="h-5 w-5" />
             </Button>
           </div>
-          <p className="text-gray-500 text-sm">© 2024 Priyanka. Built with passion for AI and innovation.</p>
+          <p className="text-gray-500 text-sm">© 2024 Priyanka. Turning Ideas into Intelligent Solutions.</p>
         </div>
       </footer>
     </div>
